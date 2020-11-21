@@ -1,0 +1,146 @@
+.header{
+    position: static;
+    float: left;
+    width: 1503px;
+    font-family: "Calibri Light";
+    text-align: center;
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+
+.bio{
+    position: relative;
+    float: right;
+    right: 17px;
+    width: 1047px;
+    text-align: center;
+    background-color: #072352;
+    color: whitesmoke;
+    height: 444px;
+    font-family: "Calibri Light";
+    font-size: larger;
+    padding-top: 50px;
+    border-image: round
+}
+.profile-img {
+    border-radius: 50%;
+}
+
+.home-menu {
+    position: fixed;
+    top: 68px;
+    float: left;
+    width: 456px;
+    text-align: center;
+}
+.home-menu a {
+    font-family: "Times New Roman";
+    font-size: larger;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #072352;
+    text-decoration: none;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-bottom: 2px solid gray;
+
+
+}
+.home-menu a:last-child{
+    border-bottom: none;
+}
+.home-menu a:hover {
+    color: #072352;
+    background-color: #ccc;
+}
+.home-menu a.active {
+    background-color: #C14804;
+    color: white;
+}
+
+.footer{
+    position: relative;
+    float: left;
+    width: 1503px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Calibri Light";
+    background-color: darkslategray;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+.about{
+    position: relative;
+    float: right;
+    width: 1028px;
+    text-align: left;
+    background-color: #072352;
+    color: whitesmoke;
+    font-family: "Calibri Light";
+    font-size: larger;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+.artworks{
+    position: relative;
+    float: right;
+    width: 1028px;
+    text-align: center;
+    background-color: #072352;
+    color: whitesmoke;
+    font-family: "Calibri Light";
+    font-size: larger;
+    padding: 10px;
+    padding-top: 50px;
+
+}
+
+@media (max-width: 1400px)
+{
+    .home-menu
+    {
+        float: top;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: whitesmoke;
+
+    }
+    .home-menu a
+    {
+        text-align: center;
+        padding: 25px;
+        border-bottom: 2px gray;
+        border-top: 2px gray;
+    }
+    .about{
+        top: 70px;
+        height: auto;
+        width: auto;
+
+    }
+    .bio, .artworks{
+        top: 70px;
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+        top:50px;
+        bottom: 50px;
+    }
+    .menu
+    {
+        height: auto;
+    }
+}
